@@ -2,9 +2,6 @@ variable "project_id" {}
 variable "location" {
     default = "us-central1"
 }
-variable "container_image" {
-  default = "gcr.io/david-tessier-sandbox/dlp-demo"
-}
 
 variable "gcp_service_list" {
   description = "List of GCP service to be enabled for the project."

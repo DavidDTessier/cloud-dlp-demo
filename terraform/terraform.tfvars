@@ -1,4 +1,4 @@
-project_id = "[GCP-PROJECT]"
+project_id = "[REPLACE_WITH_GCP_PROJECT_NAME]"
 gcp_service_list = ["storage-component.googleapis.com",
                     "cloudfunctions.googleapis.com",
                     "run.googleapis.com",
