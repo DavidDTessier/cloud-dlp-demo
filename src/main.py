@@ -18,7 +18,7 @@ APP_LOG_NAME = os.getenv('LOG_NAME', 'DLP-redaction-demo')
 RAW_BUCKET = 'cloud-dlp-demo-raw-bucket'
 REDACTED_BUCKET = 'cloud-dlp-demo-redacted-bucket'
 BQ_DATASET_ID = 'cloud_dlp_demo_dlp_results'
-PROJECT_ID = 'david-tessier-sandbox'
+PROJECT_ID = '[REPLACE_WITH_GCP_PROJECT_NAME]' # ADD GCP PROJECT ID
 
 # End of user-configurable constants
 # --------------------
